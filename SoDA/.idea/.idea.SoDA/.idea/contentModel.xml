@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\UnityProjects\GitHub\SoDA\SoDA" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="InputSystem" t="Include">
+          <e p="CharacterController.cs" t="Include" />
+          <e p="PlayerInputActions.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Commands" t="Include">
+            <e p="Command.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="GameManagerEditor.cs" t="Include" />
+          </e>
+          <e p="IInteractInput.cs" t="Include" />
+          <e p="Manager" t="Include">
+            <e p="CameraManager.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="PlayerAnimationBehaviour.cs" t="Include" />
+          <e p="PlayerMovementBehaviour.cs" t="Include" />
+          <e p="Utilities" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
+        </e>
         <e p="Standard Assets" t="Include">
           <e p="Characters" t="Include">
             <e p="ThirdPersonCharacter" t="Include">
@@ -13,24 +37,6 @@
                 <e p="ThirdPersonUserControl.cs" t="Include" />
               </e>
               <e p="ThirdPersonCharacterGuidelines.txt" t="Include" />
-            </e>
-          </e>
-          <e p="CrossPlatformInput" t="Include">
-            <e p="CrossPlatformInputGuidelines.txt" t="Include" />
-            <e p="Scripts" t="Include">
-              <e p="AxisTouchButton.cs" t="Include" />
-              <e p="ButtonHandler.cs" t="Include" />
-              <e p="CrossPlatformInputManager.cs" t="Include" />
-              <e p="InputAxisScrollbar.cs" t="Include" />
-              <e p="Joystick.cs" t="Include" />
-              <e p="MobileControlRig.cs" t="Include" />
-              <e p="PlatformSpecific" t="Include">
-                <e p="MobileInput.cs" t="Include" />
-                <e p="StandaloneInput.cs" t="Include" />
-              </e>
-              <e p="TiltInput.cs" t="Include" />
-              <e p="TouchPad.cs" t="Include" />
-              <e p="VirtualInput.cs" t="Include" />
             </e>
           </e>
         </e>
